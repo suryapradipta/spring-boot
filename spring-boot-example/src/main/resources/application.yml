@@ -1,0 +1,10 @@
+#change port of web server
+server:
+  port: 8080
+
+
+# spring boot app without web server
+# servlet is default
+spring:
+  main:
+    web-application-type: servlet
